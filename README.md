@@ -27,16 +27,6 @@ El backend se conecta a una base de datos externa PostgreSQL en producción, don
 - Dockerizado: El backend está empaquetado en un contenedor Docker, lo que facilita el despliegue y ejecución en cualquier entorno compatible con Docker.
 - Despliegue en Render.com, donde se ejecuta la imagen Docker en producción
 
-## Acceso al Backend:
-- Backend en producción: [https://crudrapido-app-latest.onrender.com](https://crudrapido-app-latest.onrender.com)
-  
-## Frontend:
-- Repositorio del frontend: [Aquí](https://github.com/CristianAvilaDev/FullstackPagina-frontend-v1)
-- Aplicación en funcionamiento: https://inspiratendencias.netlify.app/
-
-
-
-
 
 
 
