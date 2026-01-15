@@ -1,6 +1,20 @@
-## **Backend para el Proyecto FullstackPagina con Spring Boot y PostgreSQL**
+## **Proyecto**
 
-Este repositorio contiene el backend de FullstackPagina, un proyecto fullstack que consta de un frontend desarrollado en Angular y un backend en Spring Boot. Este backend está diseñado para realizar operaciones CRUD y se conecta a una base de datos PostgreSQL. Los endpoints proporcionados están específicamente diseñados para ser consumidos por el frontend Angular, ofreciendo la funcionalidad necesaria para la aplicación. 
+Este proyecto cuenta con un backend desarrollado en Spring Boot, el cual fue contenedorizado con Docker y desplegado en un entorno de producción.  
+La aplicación frontend está desarrollada en Angular, también desplegada en producción, y es la encargada de consumir los endpoints expuestos por el backend.  
+El backend se conecta a una base de datos externa PostgreSQL en producción, donde gestiona operaciones CRUD (crear, actualizar y eliminar usuarios).  
+Todo el sistema se encuentra completamente operativo en la nube, incluyendo el backend, el frontend y la base de datos, permitiendo que la aplicación funcione de extremo a extremo sin necesidad de configuraciones locales. Los endpoints, la persistencia de datos y la interfaz de usuario están activos y accesibles en producción.
+
+
+## Frontend:
+
+- Aplicación fronted en funcionamiento: https://inspiratendencias.netlify.app/
+- - Repositorio del frontend: [Aquí](https://github.com/CristianAvilaDev/FullstackPagina-frontend-v1)
+## Acceso al Backend:
+- Backend en producción: [https://crudrapido-app-latest.onrender.com](https://crudrapido-app-latest.onrender.com)
+  
+
+
 
 ## Características principales:
 
