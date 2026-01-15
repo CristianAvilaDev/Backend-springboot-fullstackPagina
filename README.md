@@ -5,6 +5,7 @@ La aplicación frontend está desarrollada en Angular, también desplegada en pr
 El backend se conecta a una base de datos externa PostgreSQL en producción, donde gestiona operaciones CRUD (crear, actualizar y eliminar usuarios).  
 Todo el sistema se encuentra completamente operativo en la nube, incluyendo el backend, el frontend y la base de datos, permitiendo que la aplicación funcione de extremo a extremo sin necesidad de configuraciones locales. Los endpoints, la persistencia de datos y la interfaz de usuario están activos y accesibles en producción.
 
+**Nota:** Si al acceder no aparece la lista de estudiantes, espere aproximadamente un minuto. Render.com puede tardar en desplegar la imagen Docker debido a que el servicio es gratuito. Después de ese tiempo, la aplicación funciona con normalidad.
 
 ## Frontend:
 
