@@ -1,57 +1,51 @@
-## **Proyecto**
+## **Proyecto Fullstack CRUD en Producción (Spring Boot + Angular)**
 
-Este proyecto cuenta con un backend desarrollado en Spring Boot, el cual fue contenedorizado con Docker y desplegado en un entorno de producción.  
-La aplicación frontend está desarrollada en Angular, también desplegada en producción, y es la encargada de consumir los endpoints expuestos por el backend.  
-El backend se conecta a una base de datos externa PostgreSQL en producción, donde gestiona operaciones CRUD (crear, actualizar y eliminar usuarios).  
+Aplicación **fullstack completamente desplegada en la nube**, diseñada para demostrar un flujo real de **desarrollo, contenedorización y despliegue en producción**.
 
-**Todo el sistema se encuentra completamente operativo en la nube**, incluyendo el backend, el frontend y la base de datos, permitiendo que la aplicación funcione de extremo a extremo sin necesidad de configuraciones locales. Los endpoints, la persistencia de datos y la interfaz de usuario están activos y accesibles en producción.
+## 🧩 **Arquitectura del sistema**
 
-**Nota:** Si al acceder no aparece la lista de estudiantes, espere aproximadamente un minuto. Render.com puede tardar en desplegar la imagen Docker debido a que el servicio es gratuito. Después de ese tiempo, la aplicación funciona con normalidad.
+- **Backend** desarrollado en **Spring Boot**,  
+  ➝ **dockerizado con Docker y desplegado en producción**
+- **Frontend** desarrollado en **Angular**,  
+  ➝ desplegado en producción y encargado de consumir los endpoints REST del backend
+- **Base de datos PostgreSQL** externa en producción
 
-## Frontend:
+El backend gestiona operaciones **CRUD (crear, leer, actualizar y eliminar usuarios/estudiantes)** sobre la base de datos.
 
-- Aplicación fronted en funcionamiento: https://inspiratendencias.netlify.app/
+## ☁️ **Despliegue en la nube (End-to-End)**
+
+Todo el sistema se encuentra **100% operativo en la nube**:
+
+- Backend en producción
+- Frontend en producción
+- Base de datos en producción
+
+La aplicación funciona **de extremo a extremo sin necesidad de configuración local**, demostrando un entorno real de producción con persistencia de datos, comunicación frontend–backend y contenedores Docker.
+
+## 🚀 **Aplicación en producción**
+
+- **Frontend:** https://inspiratendencias.netlify.app/
+- **Backend:** https://crudrapido-app-latest.onrender.com
+
+⚠️ **Nota:** En el primer acceso, si no aparece la lista de estudiantes, espere aproximadamente **1 minuto**.  
+Render.com puede tardar en iniciar la imagen Docker debido a que se utiliza el plan gratuito.  
+Después de ese tiempo, la aplicación funciona con normalidad.
+
 - - Repositorio del frontend: [Aquí](https://github.com/CristianAvilaDev/FullstackPagina-frontend-v1)
-## Acceso al Backend:
-- Backend en producción: [https://crudrapido-app-latest.onrender.com](https://crudrapido-app-latest.onrender.com)
-  
 
+## 🛠️ **Tecnologías utilizadas**
 
+- Java 23  
+- Spring Boot  
+- Angular  
+- PostgreSQL  
+- Docker  
+- Render  
+- Netlify  
+- Supabase  
 
-## Características principales:
-
-- Desarrollado utilizando Spring Boot.
-- Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) con los datos de la base de datos.
-- Base de datos PostgreSQL hospedada en supabase.com.
-- Diseñado para ser consumido por el frontend en Angular del proyecto FullstackPagina.
-- Dockerizado: El backend está empaquetado en un contenedor Docker, lo que facilita el despliegue y ejecución en cualquier entorno compatible con Docker.
-- Despliegue en Render.com, donde se ejecuta la imagen Docker en producción
-
-
-
-
-
-## Requisitos
-
-Antes de ejecutar el proyecto localmente, asegúrate de tener instalados los siguientes programas:
-
-- **Java 23 o superior** 
-
-
-## Instalación y despliegue local
-
-### Clonar el repositorio
+## ▶️ **Ejecución local**
 
 ```bash
 git clone https://github.com/CristianAvilaDev/FullstackPagina-backend-v1
 
-```
-
-### Ejecutar el backend:
-
- accede a:  [http://localhost:8080](http://localhost:8080/)
-
-
-Notas: 
-
-Si deseas usar una base de datos diferente, configura las propiedades de la base de datos en el archivo application.properties según corresponda.
