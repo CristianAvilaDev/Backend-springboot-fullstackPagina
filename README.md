@@ -24,7 +24,7 @@ La aplicación funciona **de extremo a extremo sin necesidad de configuración l
 
 ## 🚀 **Aplicación en producción**
 
-- **Frontend:** [https://inspiratendencias.netlify.app/]([https://fullstack-pagina-frontend-v1.vercel.app](https://frontend-springboot-proyecto.vercel.app/lista_estudiantes)/)
+- **Frontend:** [Ver aplicación](https://frontend-springboot-proyecto.vercel.app/lista_estudiantes)
 - **Backend:** https://crudrapido-app-latest.onrender.com
 
 ⚠️ **Nota:** En el primer acceso, si no aparece la lista de estudiantes, espere aproximadamente **1 minuto**.  
