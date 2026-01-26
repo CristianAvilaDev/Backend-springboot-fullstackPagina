@@ -31,7 +31,7 @@ La aplicación funciona **de extremo a extremo sin necesidad de configuración l
 Render.com puede tardar en iniciar la imagen Docker debido a que se utiliza el plan gratuito.  
 Después de ese tiempo, la aplicación funciona con normalidad.
 
-- - Repositorio del frontend: [Aquí](https://github.com/CristianAvilaDev/FullstackPagina-frontend-v1)
+- - Repositorio del frontend: [Aquí]( https://github.com/CristianAvilaDev/Frontend-springboot-proyecto.git  )
 
 ## 🛠️ **Tecnologías utilizadas**
 
