@@ -47,5 +47,5 @@ Después de ese tiempo, la aplicación funciona con normalidad.
 ## ▶️ **Ejecución local**
 
 ```bash
-git clone https://github.com/CristianAvilaDev/FullstackPagina-backend-v1
+git clone https://github.com/CristianAvilaDev/Backend-springboot-fullstackPagina.git
 
