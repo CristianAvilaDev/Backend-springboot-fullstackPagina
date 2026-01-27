@@ -48,9 +48,10 @@ Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base d
 
 ### 📦 Requisitos previos
 
-- Java 22+ (o la versión requerida por el proyecto)
-- PostgreSQL
+- Java JDK 23+
+- PostgreSQL 14+
 - pgAdmin
+- IDE recomendado (opcional): IntelliJ IDEA
 
 ### 🚀 Pasos de instalación
 
