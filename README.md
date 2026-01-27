@@ -44,7 +44,8 @@ Después de ese tiempo, la aplicación funciona con normalidad.
 - Netlify  
 - Supabase
 - 
-▶️ Ejecución local
+##▶️ Ejecución local
+
 Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base de datos PostgreSQL local.
 📦 Requisitos previos
 
@@ -52,7 +53,7 @@ Java 22+ (o la versión requerida por el proyecto)
 PostgreSQL
 pgAdmin
 
-🚀 Pasos de instalación
+#🚀 Pasos de instalación
 1️⃣ Clonar el repositorio
 bashgit clone https://github.com/CristianAvilaDev/Backend-springboot-fullstackPagina.git
 2️⃣ Crear la base de datos
