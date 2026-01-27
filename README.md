@@ -40,10 +40,8 @@ Después de ese tiempo, la aplicación funciona con normalidad.
 - Angular  
 - PostgreSQL  
 - Docker  
-- Render  
-- Netlify  
-- Supabase
-- 
+
+ 
 ## ▶️ Ejecución local
 
 Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base de datos PostgreSQL local.
