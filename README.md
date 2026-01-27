@@ -46,6 +46,8 @@ Después de ese tiempo, la aplicación funciona con normalidad.
 
 Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base de datos PostgreSQL local.
 
+Si prefieres usar la base de datos por defecto alojada en la nube, no es necesario realizar ninguna configuración adicional: simplemente ejecuta el proyecto.
+
 ### 📦 Requisitos previos
 
 - Java JDK 23+
