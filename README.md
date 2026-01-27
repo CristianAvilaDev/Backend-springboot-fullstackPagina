@@ -44,19 +44,6 @@ Después de ese tiempo, la aplicación funciona con normalidad.
 - Netlify  
 - Supabase
 - 
-## ▶️ Ejecución local
-
-Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base de datos PostgreSQL local.
-
-### 📦 Requisitos previos
-- Java 22+ (o la versión requerida por el proyecto)
-- PostgreSQL
-- pgAdmin 
-
----
-
-### 🚀 Pasos de instalación
-
 ▶️ Ejecución local
 Sigue estos pasos para ejecutar el proyecto en tu máquina utilizando una base de datos PostgreSQL local.
 📦 Requisitos previos
@@ -74,7 +61,7 @@ Abre pgAdmin
 Crea una nueva base de datos llamada: bdLocal
 
 3️⃣ Configurar application.properties
-Ubica el archivo application.properties y elimina la configuración de Neon. Luego, agrega la siguiente configuración local:
+Ubica el archivo application.properties y elimina todo. Luego, agrega la siguiente configuración local:
 propertiesspring.datasource.url=jdbc:postgresql://localhost:5432/bdLocal
 spring.datasource.username=postgres
 spring.datasource.password=TU_CONTRASEÑA_DE_POSTGRES
